@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:news_app/controller/bottom_nav_controller.dart';
 import 'package:news_app/controller/splash_controller.dart';
 import 'package:provider/provider.dart';
 
@@ -10,7 +11,9 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return MultiProvider(
       providers: [
-        ChangeNotifierProvider(create: (context)=>SplashScreenProvider(),)
+        ChangeNotifierProvider(create: (context)=>SplashScreenProvider(),
+        ),
+        ChangeNotifierProvider(create: (context)=>BottomNavController())
       ],
     );
   }

@@ -24,7 +24,7 @@ class SplashScreen extends StatelessWidget {
             ),
             if (splashScreenProvider.isLoading)
               LottieBuilder.asset(
-                "assets/animations/Animation - 1702395258490 (2).json",
+                "assets/animations/splash.json",
                 fit: BoxFit.cover,
                 repeat: true,
                 height: 150,
