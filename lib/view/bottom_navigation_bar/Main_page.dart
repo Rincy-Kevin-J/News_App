@@ -14,14 +14,14 @@ class MainPage extends StatelessWidget {
           padding: const EdgeInsets.all(5),
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(15),
-              color: const Color(0xff9e8cd2)),
+              color: const Color(0xffffb0b0)),
           child: BottomNavigationBar(
               currentIndex:
                   Provider.of<BottomNavController>(context).selectedIndex,
               onTap: Provider.of<BottomNavController>(context, listen: false)
                   .onItemTap,
               elevation: 0,
-              backgroundColor: const Color(0xffababe7),
+              backgroundColor: const Color(0xffffc8c8),
               selectedIconTheme: const IconThemeData(
                 color: Colors.white,
                 size: 25,

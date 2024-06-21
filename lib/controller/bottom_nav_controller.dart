@@ -15,3 +15,4 @@ class BottomNavController with ChangeNotifier{
     SearchScreen()
   ];
 }
+
