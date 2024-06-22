@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:news_app/utils/textstyle.dart';
 import 'package:provider/provider.dart';
-
 import '../controller/splash_controller.dart';
 
 class SplashScreen extends StatelessWidget {

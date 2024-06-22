@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
-import '../../controller/home_screen_controller.dart';
+import '../controller/home_screen_controller.dart';
 
 class NewsViewScreen extends StatelessWidget {
   const NewsViewScreen(
@@ -84,7 +84,7 @@ class NewsViewScreen extends StatelessWidget {
                     style: TextStyle(
                         fontSize: 15,
                         fontStyle: FontStyle.italic,
-                        color: Colors.blue)),
+                        color: Color(0xffff5c5c))),
                 onPressed: () {
                   Provider.of<HomeScreenController>(context, listen: false)
                       .launchURL(url);

@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'package:news_app/utils/textstyle.dart';
 import 'package:provider/provider.dart';
 import '../../controller/home_screen_controller.dart';
-import '../search_screen/news_card.dart';
+import '../../widget/news_card.dart';
 import '../search_screen/search_screen.dart';
 class HomeScreen extends StatelessWidget {
   void fetchData(BuildContext context) {

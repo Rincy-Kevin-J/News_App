@@ -21,7 +21,7 @@ class MainPage extends StatelessWidget {
               onTap: Provider.of<BottomNavController>(context, listen: false)
                   .onItemTap,
               elevation: 0,
-              backgroundColor: const Color(0xffffc8c8),
+              backgroundColor: const Color(0xffffb0b0),
               selectedIconTheme: const IconThemeData(
                 color: Colors.white,
                 size: 25,

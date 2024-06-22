@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:provider/provider.dart';
 import '../../controller/category_controller.dart';
-import '../search_screen/news_card.dart';
+import '../../widget/news_card.dart';
 
 class CategoryScreen extends StatelessWidget {
   void fetchData(BuildContext context) async {

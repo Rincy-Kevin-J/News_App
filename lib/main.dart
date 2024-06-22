@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:news_app/controller/bottom_nav_controller.dart';
+import 'package:news_app/controller/search_screen_controller.dart';
 import 'package:news_app/controller/splash_controller.dart';
 import 'package:news_app/view/bottom_navigation_bar/Main_page.dart';
 import 'package:news_app/widget/splashScreen.dart';
@@ -24,11 +25,13 @@ class MyApp extends StatelessWidget {
           ChangeNotifierProvider(
             create: (context) => HomeScreenController(),
           ),
-          ChangeNotifierProvider(create: (context) => BottomNavController()
-          ),
+          ChangeNotifierProvider(create: (context) => BottomNavController()),
           ChangeNotifierProvider(
             create: (context) => CategoryController(),
-          )
+          ),
+          ChangeNotifierProvider(
+            create: (context) => SearchScreenController(),
+          ),
         ],
         child: MaterialApp(
           debugShowCheckedModeBanner: false,

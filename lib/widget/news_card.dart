@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
-import '../../controller/home_screen_controller.dart';
+import '../controller/home_screen_controller.dart';
 import 'news_view_screen.dart';
 
 class NewsCard extends StatelessWidget {
